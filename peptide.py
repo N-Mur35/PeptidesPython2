@@ -2,9 +2,10 @@ import requests
 import urllib
 import json
 
-sequence =input('What is your peptide sequence?')
-nterm=input('What is your N-terminal modification?')
-cterm=input('What is your C-terminal modification?')
+sequence=input('What is your peptide sequence?')
+Nterm=input('What is your N-terminal modification?')
+Cterm=input('What is your C-terminal modification?')
+
 
 def peptideBasics(sequence, Nterm, Cterm):
 
@@ -19,5 +20,6 @@ def peptideBasics(sequence, Nterm, Cterm):
   return data
 
 
-data = peptideBasics("PSICHVHRPDWPCWYR", 'H', 'OH')
+
+data = peptideBasics(sequence, Nterm, Cterm)
 print(data)
