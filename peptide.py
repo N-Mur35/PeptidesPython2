@@ -14,3 +14,4 @@ def peptideBasics(sequence, Nterm, Cterm):
 
 data = peptideBasics("PSICHVHRPDWPCWYR", 'H', 'OH')
 print(data)
+
