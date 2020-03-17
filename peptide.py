@@ -148,14 +148,14 @@ print(list_of_sequences)
 #     valuelist = []
 
 # *Still to code in to the programme:*
-
+#
 # -Writing a list/ two separate dictionaries of alternative C-terminal modifications and N-terminal modification, writing them  (Fluorescent dyes) and adding them into the calculation so that if a H or OH is chosen
 # it can add these numbers on instead (can be in or out of the alanine loop whichever is fine):
 #
 # eg. Fluorescein = 332.31
 #     Rhodamine = 479.02
 #     Dansyl = 269.74
-
+#
 # *Using flask to link our code output to a html webpage??, whether its the graphs matplotlib generates or the mass fragment ion series into either a csv file or a html
 
 
